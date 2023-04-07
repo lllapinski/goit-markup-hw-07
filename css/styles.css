@@ -83,7 +83,6 @@ img {
 }
 @media screen and (min-width: 320px) {
   .container {
-    width: 100%;
     margin-left: auto;
     margin-right: auto;
   }
