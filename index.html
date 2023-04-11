@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -21,14 +22,16 @@
     />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="./css/modal-menu.css" />
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/desktop.css" />
 
     <title>Studio</title>
   </head>
   <body>
     <!-- Header -->
-    <!-- hhhhheeeader -->
-    <!-- <header class="header head-container">
+    <header class="header head-container">
       <div class="container header-container">
         <nav class="header-nav">
           <a class="logo link" href="./index.html"
@@ -46,6 +49,9 @@
             </li>
           </ul>
         </nav>
+        <a class="logo link mobile-logo" href="./index.html"
+          >Web<span class="studio-span link">Studio</span>
+        </a>
         <button data-menu-open type="button" class="mobile-menu-open">
           <svg width="32" height="22" class="mob-burger-svg">
             <use href="./images/icons.svg#burger-icon"></use>
@@ -66,7 +72,7 @@
           </ul>
         </address>
       </div>
-      <div class="menu" data-menu>
+      <div class="menu is-hidden" data-menu>
         <div class="container mobile-menu-container">
           <button data-menu-close class="menu-close-btn">
             <svg width="24" height="24" class="menu-close-svg">
@@ -88,18 +94,26 @@
               <a href="" class="mobile-menu-nav-link link">Contacts</a>
             </li>
           </ul>
-          <ul class="mobile-menu-contacts list">
-            <li class="mobile-menu-contacts-items">
-              <a class="mobile-menu-tel link" id="tel" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-            <li class="mobile-menu-contacts-items">
-              <a class="mobile-menu-email link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-          </ul>
+          <address class="mobile-address">
+            <ul class="mobile-menu-contacts list">
+              <li class="mobile-menu-contacts-items">
+                <a
+                  class="mobile-menu-tel link"
+                  id="tel"
+                  href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="mobile-menu-contacts-items">
+                <a
+                  class="mobile-menu-email link"
+                  href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+
           <ul class="mobile-menu-social-block list">
             <li class="mobile-menu-sicial">
               <a href="" class="mobile-menu-social-links link">
@@ -132,7 +146,7 @@
           </ul>
         </div>
       </div>
-    </header> -->
+    </header>
 
     <main>
       <!-- section 1 -->
@@ -148,9 +162,9 @@
 
       <!-- section 2 -->
       <section class="advantages">
-        <h2 hidden class="advantages-main-title">Our advantages</h2>
-        <ul class="advantages-list list">
-          <div class="container advantages-container">
+        <div class="container advantages-container">
+          <h2 hidden class="advantages-main-title">Our advantages</h2>
+          <ul class="advantages-list list">
             <li class="advantages-list-item">
               <div class="adv-svg-div">
                 <svg width="64" height="64" class="adv-svg">
@@ -202,8 +216,8 @@
                 deep passion for problem-solving.
               </p>
             </li>
-          </div>
-        </ul>
+          </ul>
+        </div>
       </section>
 
       <!-- section 3 -->
@@ -421,42 +435,42 @@
         <div class="container">
           <h2 class="costumers-header">Customers</h2>
           <ul class="costumers-list list">
-            <li class="customers-link link">
+            <li class="">
               <a class="customers-link-tag" href>
                 <svg width="104" height="56" class="costummers-items">
                   <use href="./images/customers.svg#icon-Logo-1"></use>
                 </svg>
               </a>
             </li>
-            <li class="customers-link link">
+            <li class="">
               <a class="customers-link-tag" href>
                 <svg width="104" height="56" class="costummers-items">
                   <use href="./images/customers.svg#icon-Logo-2"></use>
                 </svg>
               </a>
             </li>
-            <li class="customers-link link">
+            <li class="">
               <a class="customers-link-tag" href>
                 <svg width="104" height="56" class="costummers-items">
                   <use href="./images/customers.svg#icon-Logo-3"></use>
                 </svg>
               </a>
             </li>
-            <li class="customers-link link">
+            <li class="">
               <a class="customers-link-tag" href>
                 <svg width="104" height="56" class="costummers-items">
                   <use href="./images/customers.svg#icon-Logo-4"></use>
                 </svg>
               </a>
             </li>
-            <li class="customers-link link">
+            <li class="">
               <a class="customers-link-tag" href>
                 <svg width="104" height="56" class="costummers-items">
                   <use href="./images/customers.svg#icon-Logo-5"></use>
                 </svg>
               </a>
             </li>
-            <li class="customers-link link">
+            <li class="">
               <a class="customers-link-tag" href>
                 <svg width="104" height="56" class="costummers-items">
                   <use href="./images/customers.svg#icon-Logo-6"></use>
@@ -470,55 +484,55 @@
     <!-- FOOTER -->
     <footer class="footer">
       <div class="container footer-container">
-        <div class="footer-content">
-          <a class="logo link" href="./index.html"
-            >Web <span class="studio-span link sspan">Studio</span>
-          </a>
-          <p class="fotter-text">
-            Increase the flow of customers and sales for your business with
-            digital marketing & growth solutions.
-          </p>
-        </div>
+        <div class="wrapper">
+          <div class="footer-content">
+            <a class="logo link" href="./index.html"
+              >Web <span class="studio-span link sspan">Studio</span>
+            </a>
+            <p class="fotter-text">
+              Increase the flow of customers and sales for your business with
+              digital marketing & growth solutions.
+            </p>
+          </div>
 
-        <div class="footer-social">
-          <p class="footer-social-media">Social media</p>
-          <ul class="footer-soc-list list">
-            <li class="team-soc-item">
-              <a class="footer-soc-link link" href>
-                <svg width="24" height="24" class="team-soc-item-svg">
-                  <use href="./images/icons.svg#icon-instagram"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="footer-soc-item">
-              <a class="footer-soc-link link soc" href>
-                <svg width="24" height="24" class="team-soc-item-svg">
-                  <use href="./images/icons.svg#icon-twitter"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="team-soc-item">
-              <a class="footer-soc-link link" href>
-                <svg width="24" height="24" class="team-soc-item-svg">
-                  <use href="./images/icons.svg#icon-facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="team-soc-item">
-              <a class="footer-soc-link link" href>
-                <svg width="24" height="24" class="team-soc-item-svg">
-                  <use href="./images/icons.svg#icon-linkedin"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
+          <div class="footer-social">
+            <p class="footer-social-media">Social media</p>
+            <ul class="footer-soc-list list">
+              <li class="team-soc-item">
+                <a class="footer-soc-link link" href>
+                  <svg width="24" height="24" class="team-soc-item-svg">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-soc-item">
+                <a class="footer-soc-link link soc" href>
+                  <svg width="24" height="24" class="team-soc-item-svg">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-soc-item">
+                <a class="footer-soc-link link" href>
+                  <svg width="24" height="24" class="team-soc-item-svg">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-soc-item">
+                <a class="footer-soc-link link" href>
+                  <svg width="24" height="24" class="team-soc-item-svg">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-
         <div class="footer-soc-email">
           <p class="text-subscribe">Subscribe</p>
-  <div class="form-div-cont">
-    
-          <form class="form-telegram">
+          <div class="form-div-cont">
+            <form class="form-telegram">
               <input
                 type="email"
                 class="subscribe-form"
@@ -533,8 +547,8 @@
                   <use href="./images/telegram-icon.svg#icon-icon-send"></use>
                 </svg>
               </button>
-            </div>
-          </form>
+            </form>
+          </div>
         </div>
       </div>
     </footer>
