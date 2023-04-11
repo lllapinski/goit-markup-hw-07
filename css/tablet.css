@@ -1,0 +1,89 @@
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .menu {
+    display: none;
+  }
+  .solutions {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office.jpg);
+  }
+
+  .solutions-title {
+    font-size: 56px;
+    max-width: 496px;
+    margin-bottom: 36px;
+  }
+  /* advantages */
+  .advantages-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+  }
+  .advantages-list-item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+  .advantages-title {
+    margin-top: 0;
+  }
+  /* footer */
+
+  .wrapper {
+    display: flex;
+    gap: 24px;
+  }
+  .footer-content {
+    margin: 0;
+  }
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 108px;
+  }
+  .text-subscribe {
+    margin-top: 0;
+  }
+  .footer-soc-email {
+    margin-top: 72px;
+  }
+  .form-telegram {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+  .subscribe-form {
+    margin: 0;
+    max-width: 264px;
+  }
+  .button-footer-subscribe {
+    margin: 0;
+  }
+  .text-subscribe {
+    text-align: left;
+  }
+
+  .footer-social-media {
+    margin: 0;
+  }
+  .costumers .container {
+    padding: 0 108px;
+  }
+  .costumers-list {
+    gap: 24px;
+    row-gap: 72px;
+  }
+  .customers-link-tag {
+    min-width: 0;
+  }
+  .customers-link-tag {
+    height: 88px;
+  }
+
+  .costumers-list li {
+    width: calc((100% - 48px) / 3);
+  }
+}

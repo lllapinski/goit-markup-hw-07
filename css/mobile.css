@@ -1,0 +1,34 @@
+@media screen and (min-width: 428px) {
+  .container {
+    max-width: 428px;
+  }
+
+  .tasks {
+    display: none;
+  }
+  .costumers-list {
+    align-items: center;
+    flex-direction: row;
+    padding: 0px;
+
+    gap: 16px;
+    row-gap: 72px;
+  }
+  .customers-link-tag {
+    min-width: 190px;
+  }
+  .customers-link-tag {
+    border: 1px solid var(--grey-white-color);
+    border-radius: 4px;
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: var(--grey-white-color);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .costumers-list li {
+    width: calc((100% - 16px) / 2);
+  }
+}
