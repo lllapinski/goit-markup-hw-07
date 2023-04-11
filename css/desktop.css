@@ -50,9 +50,7 @@
   .advantages-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--link-color);
+   
   }
   .footer-container {
     flex-direction: row;
@@ -82,4 +80,9 @@
   .costumers-list li {
     width: calc((100% - 120px) / 6);
   }
+  .costumers{padding-top: 120px;
+    padding-bottom: 120px;}
+
+      .team-container{padding-top: 120px;
+        padding-bottom: 120px;}
 }

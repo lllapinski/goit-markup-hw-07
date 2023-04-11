@@ -460,14 +460,14 @@ img {
 
 /*  SECTION FOUR*/
 
-.team {
+/* .team {
   background-color: var(--white-color);
-  /* padding-top: 120px;
-  padding-bottom: 120px; */
+  padding-top: 120px;
+  padding-bottom: 120px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
+} */
 
-.team-main-title {
+/* .team-main-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -476,16 +476,16 @@ img {
   text-transform: capitalize;
   color: var(--main-color);
   margin-bottom: 72px;
-}
+} */
 
-.team-worker {
+/* .team-worker {
   background: #ffffff;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
   padding-top: 32px;
   padding-bottom: 32px;
-}
+} */
 
 /* .team-list {
   display: flex;
@@ -498,7 +498,7 @@ img {
 .team-img {
 }
 
-.team-item {
+/* .team-item {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -553,16 +553,8 @@ img {
 .soc-change:hover,
 .soc-change:focus .team-soc-item-svg {
   fill: var(--add-color);
-}
-@media screen and (min-width: 428px) {
-  .team-list-item {
-    margin-bottom: 72px;
-  }
-  .team-container {
-    padding-top: 96px;
-    padding-bottom: 96px;
-  }
-}
+} */
+/*  */
 @media screen and (min-width: 768px) {
   .team-list {
     display: flex;
@@ -573,7 +565,7 @@ img {
     column-gap: 24px;
   }
 }
-@media screen and (min-width: 1158px) {
+/* @media screen and (min-width: 1158px) {
   .team-list {
     display: flex;
     gap: 24px;
@@ -583,7 +575,7 @@ img {
     padding-top: 120px;
     padding-bottom: 120px;
   }
-}
+} */
 
 /* FOOTER */
 .footer {
@@ -648,16 +640,16 @@ img {
 
   justify-content: center;
 }
-.text-subscribe {
+/* .text-subscribe {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  /* margin-bottom: 16px; */
+  margin-bottom: 16px;
 
   color: #ffffff;
-}
+} */
 .subscribe-form {
   margin-right: 24px;
   color: var(--white-color);
@@ -759,10 +751,10 @@ img {
   .footer-soc-email {
     margin-left: 80px;
   }
-  .text-subscribe {
+  /* .text-subscribe {
     margin-bottom: 16px;
     margin-top: 0;
-  }
+  } */
   .subscribe-form {
     margin-right: 24px;
     width: 264px;
