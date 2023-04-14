@@ -5,6 +5,82 @@
   .menu {
     display: none;
   }
+
+  /* HEADER */
+  .mobile-logo {
+    display: none;}
+
+  .mobile-menu-open {
+    display: none;}
+  .header{}
+
+  .head-container{}
+
+  .header-container{}
+
+  .header-list-item{}
+
+  .hov{}
+
+  .links-nav{  font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+  }
+  
+.links-nav:hover {
+  color: var(--hover-color);
+} 
+ .links-nav:focus {
+  color: var(--hover-color);
+} 
+
+
+  .current{}
+
+  .adress{display: flex;
+    flex-wrap: wrap;
+  align-items: center;
+ 
+ margin-left: auto;
+
+   }
+   .list-adress{
+ }
+
+/* 
+  .list-adress{display: flex;
+  flex-wrap: wrap;
+align-items: center;
+justify-content: end;} */
+
+  .adress-item{}
+
+  .adress-link{font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;letter-spacing: 0.04em;
+    color: var(--link-color);}
+
+
+
+
+  .header-list-nav {
+    display: flex;
+    margin-left: 120px;
+  gap: 40px;
+  align-items: center;
+  }
+  .header-nav {
+    display: flex;
+  }
+  .adress{display: flex;}
+
+  
+
+  /* SOLUTIONS */
   .solutions {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -34,7 +110,7 @@
 
   .wrapper {
     display: flex;
-    gap: 24px;
+    /* gap: 24px; */
   }
   .footer-soc-list {
   
@@ -62,6 +138,8 @@
   .subscribe-form {
     margin: 0;
     max-width: 264px;
+
+  
   }
   .button-footer-subscribe {
     margin: 0;
@@ -69,6 +147,7 @@
   .text-subscribe {
     text-align: left;
   }
+  .footer-social{margin-left: 24px;}
 
   .footer-social-media {
     margin: 0;
@@ -90,8 +169,21 @@
   .costumers-list li {
     width: calc((100% - 48px) / 3);
   }
-  .team-list-item:not(:last-child){
-    margin-bottom: 0px}
+  /* .team-list-item:not(:last-child){
+    margin-bottom: 0px;
+  } */
 
-    .team-list-item:{margin-bottom: 64px;}
+
+    .team-list-item{margin-bottom: 64px;}
+
+    .team-list {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 72px;
+      column-gap: 24px;
+    } 
+
+
 }

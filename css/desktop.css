@@ -11,7 +11,56 @@
       url(../images/people-office.jpg);
     padding: 188px 0;
   }
-  /* advantages */
+/* HEADER */
+
+.header-list-nav {
+  display: flex;
+  margin-left: 76px;
+  gap: 40px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+} 
+.list-adress {
+  margin-left: auto;
+  flex-wrap: nowrap;
+  display: flex;
+  color: var(--link-color);
+  gap: 40px;
+}
+  /* TASKS */
+  .tasks {
+    display: flex;
+  }
+  .tasks-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--main-color);
+    margin-bottom: 72px;
+  }
+  .tasks {
+    display: flex;
+    padding-bottom: 120px;
+  }
+
+  .tasks-list {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+  }
+
+  .tasks-img {
+    border: 1px solid var(--border-color);
+  }
+
+
+  /* ADVANTAGES */
 
   .adv-svg-div {
     display: none;
@@ -46,14 +95,28 @@
     color: var(--main-color);
     margin-bottom: 8px;
     margin-top: 0;
+    text-align: left;
   }
   .advantages-text {
     font-weight: 400;
     font-size: 16px;
    
   }
+  .footer-soc-email {
+    margin-left: 80px;
+  } 
+
+  .subscribe-form {
+    margin: 0;
+   width: 264px;
+
+  
+  }
   .footer-container {
     flex-direction: row;
+  }
+    .footer-social {
+    margin-left: 120px;
   }
   .footer-soc-email {
     margin-top: 0;
@@ -80,9 +143,14 @@
   .costumers-list li {
     width: calc((100% - 120px) / 6);
   }
-  .costumers{padding-top: 120px;
-    padding-bottom: 120px;}
+  /* .costumers{padding: 120px 120px;} */
 
-      .team-container{padding-top: 120px;
-        padding-bottom: 120px;}
+  .team-container{padding-top: 120px;
+  padding-bottom: 120px;}
+       
+   .custom-li{width: 168px;
+  height: 88px;}
+
+
+
 }
