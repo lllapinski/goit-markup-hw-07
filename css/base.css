@@ -107,7 +107,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office.jpg);
+    url(../images/solutions-mob-1x.jpg);
 
   background-size: cover;
   text-align: center;
@@ -120,6 +120,25 @@ img {
   padding-bottom: 112px;
 }
 
+@media screen and (min-device-pixel-ratio: 2) and (max-width: 767px) ,
+   screen and (-webkit-min-device-pixel-ratio: 2) (max-width: 767px),
+  screen and (min-resolution: 192dpi) (max-width: 767px),
+ screen and (min-resolution: 2dppx) (max-width: 767px) {
+  .solutions {
+    background-image: url(../images/solutions-mob-2x.jpg);
+  }
+}
+
+.adress-link{font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.50;
+  letter-spacing: 0.02em;
+  color: var(--link-color);
+transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
+.adress-link:hover,
+.adress-link:focus{color: var(--hover-color);}
 .container-solutions {
 }
 
