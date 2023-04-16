@@ -93,7 +93,7 @@
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--main-color);
-    margin-bottom: 8px;
+  
     margin-top: 0;
     text-align: left;
   }
@@ -103,7 +103,7 @@
    
   }
   .footer-soc-email {
-    margin-left: 80px;
+    margin-left: auto;
   } 
 
   .subscribe-form {
@@ -154,7 +154,7 @@
 
 
 }
-solutions {
+.solutions {
   background-color: var(--background-color);
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -175,4 +175,6 @@ solutions {
   .solutions {
     background-image: url(../images/solutions-desktop-2x.jpg);
   }
+
+  
 }

@@ -38,9 +38,22 @@
   color: var(--hover-color);
 } 
 
+.footer-social { margin-top: 0;
+}
+.logo-footer{  text-align:left}
 
-  .current{}
+  .current{color: var(--add-color);}
 
+  .current::before {
+    content: '';
+    width: 100%;
+    position: absolute;
+    height: 4px;
+    left: 0;
+    top: 44px;
+    background-color: #404bbf;
+    border-radius: 2px;
+  }
   .adress{display: flex;
     flex-wrap: wrap;
   align-items: center;
@@ -60,8 +73,9 @@ justify-content: end;} */
   .adress-item{}
 
   .adress-link{font-weight: 400;
-    font-size: 12px;
-    line-height: 1.17;letter-spacing: 0.04em;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.04em;
     color: var(--link-color);}
 
 
