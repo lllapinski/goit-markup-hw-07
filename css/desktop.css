@@ -151,9 +151,14 @@
    .custom-li{width: 168px;
   height: 88px;}
 
-
-
+  .adress-item{margin-bottom: 0;}
+  .adress-link{font-weight: 400;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.04em;
+    color: var(--link-color);}
 }
+
 .solutions {
   background-color: var(--background-color);
   background-image: linear-gradient(

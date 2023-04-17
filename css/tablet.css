@@ -51,16 +51,17 @@ color:var(--hover-color);}
  position: absolute;
  height: 4px;
  left: 0;
- top: 44px;
+ top: 45px;
  background-color: #404bbf;
  border-radius: 2px;
+ display:block;
 }
 
 
   .adress{display: flex;
     flex-wrap: wrap;
   align-items: center;
- 
+ gap: 12px;
  margin-left: auto;
 
    }
@@ -75,11 +76,11 @@ color:var(--hover-color);}
 align-items: center;
 justify-content: end;} */
 
-  .adress-item{}
+  .adress-item{margin-bottom: 7px;}
 
   .adress-link{font-weight: 400;
-    font-size: 16px;
-    line-height: 1.50;
+    font-size: 12px;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: var(--link-color);}
 
@@ -191,12 +192,13 @@ justify-content: end;} */
   .team-list-item:not(:last-child){
     margin-bottom: 0px;
   }
-.team-list-item
+
 
     /* .team-list-item{margin-bottom: 0px;} */
 
     .team-list {
       display: flex;
+      flex-direction:row;
       flex-wrap: wrap;
       align-items: center;
       justify-content: center;
@@ -205,7 +207,7 @@ justify-content: end;} */
     } 
 
 
-}
+
 .solutions {
   background-color: var(--background-color);
   background-image: linear-gradient(
