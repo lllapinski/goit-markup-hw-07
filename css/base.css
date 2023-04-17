@@ -433,7 +433,7 @@ background-color: var(--white-color);
 
  .team-list-item:not(:last-child){
   margin-bottom: 72px;}
-/* .team-list-item{width: 100%;} */
+.team-list-item{width: 100%;}
  .team-main-title{
   margin-bottom: 72px;
 font-weight: 700;
