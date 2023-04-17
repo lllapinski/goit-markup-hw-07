@@ -41,19 +41,22 @@
 .footer-social { margin-top: 0;
 }
 .logo-footer{  text-align:left}
+.spann {color:var(--main-color);}
+.current{display: flex;
+color:var(--hover-color);}
 
-  .current{color: var(--add-color);}
+.current::before {
+ content: '';
+ width: 100%;
+ position: absolute;
+ height: 4px;
+ left: 0;
+ top: 44px;
+ background-color: #404bbf;
+ border-radius: 2px;
+}
 
-  .current::before {
-    content: '';
-    width: 100%;
-    position: absolute;
-    height: 4px;
-    left: 0;
-    top: 44px;
-    background-color: #404bbf;
-    border-radius: 2px;
-  }
+
   .adress{display: flex;
     flex-wrap: wrap;
   align-items: center;
@@ -63,6 +66,8 @@
    }
    .list-adress{
  }
+
+
 
 /* 
   .list-adress{display: flex;
@@ -186,7 +191,7 @@ justify-content: end;} */
   .team-list-item:not(:last-child){
     margin-bottom: 0px;
   }
-
+.team-list-item
 
     /* .team-list-item{margin-bottom: 0px;} */
 

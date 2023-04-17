@@ -22,6 +22,13 @@ h5,
 h6 {
   margin: 0;
 }
+.main-page-mobile{font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--hover-color);
+}
 
 ul {
   padding-left: 0;
@@ -61,10 +68,9 @@ img {
 .team-img
 /* {width: 264px;
 height: 260px;} */
-
-.studio-span {
-  color: var(--main-color);
-}
+.spann
+{color:var(--main-color);}
+.stud-span{color: var(--main-color);}
 .current {
   color: #404bbf;
 }
@@ -427,7 +433,7 @@ background-color: var(--white-color);
 
  .team-list-item:not(:last-child){
   margin-bottom: 72px;}
-
+/* .team-list-item{width: 100%;} */
  .team-main-title{
   margin-bottom: 72px;
 font-weight: 700;
