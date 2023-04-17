@@ -178,7 +178,10 @@
   screen and (min-resolution: 192dpi) and (min-width: 1158px),
  screen and (min-resolution: 2dppx) and (min-width: 1158px) {
   .solutions {
-    background-image: url(../images/solutions-desktop-2x.jpg);
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ), url(../images/solutions-desktop-2x.jpg);
   }
 
   

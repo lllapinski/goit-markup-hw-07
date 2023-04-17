@@ -101,13 +101,13 @@ justify-content: end;} */
   
 
   /* SOLUTIONS */
-  .solutions {
+  /* .solutions {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/people-office.jpg);
-  }
+  } */
 
   .solutions-title {
     font-size: 56px;
@@ -208,25 +208,31 @@ justify-content: end;} */
 
 
 
-.solutions {
-  background-color: var(--background-color);
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/solutions-tab-1x.jpg);
-
-  background-size: cover;
-  text-align: center;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-left: auto;
-  margin-right: auto;}
-@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
-   screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
-  screen and (min-resolution: 192dpi) and (min-width: 768px),
- screen and (min-resolution: 2dppx) and (min-width: 768px){
-  .solutions {
-    background-image: url(../images/solutions-tablet-2x.jpg);
+    
   }
-}
+
+  .solutions {
+    background-color: var(--background-color);
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/solutions-tab-1x.jpg);
+  
+    background-size: cover;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;}
+  @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+     screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
+    screen and (min-resolution: 192dpi) and (min-width: 768px),
+   screen and (min-resolution: 2dppx) and (min-width: 768px) {
+    .solutions {
+      background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ), url(../images/solutions-tablet-2x.jpg);
+    }
+  }
